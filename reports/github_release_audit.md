@@ -5,9 +5,10 @@ Audit date: 2026-09-30
 ## Outcome
 
 The repository is technically consistent and the public/private evidence
-boundary is enforced. The English-only review version has been pushed to the
-private GitHub repository `zhjp6969-dot/CycleDiffusion-Audit`. No public release
-has been performed.
+boundary is enforced. With the owner's authorization, the English-only repository
+`zhjp6969-dot/CycleDiffusion-Audit` was made public on 2026-09-30. Unauthenticated
+GitHub API access confirmed `private: false` and `visibility: public`.
+Excluded local research assets remain outside the repository.
 
 ## Professor-facing revision
 
@@ -65,7 +66,5 @@ license could be verified.
 ## Remaining owner decisions
 
 1. Choose and add a software/data license. No license was inferred automatically.
-2. Decide whether and when to change the private repository to public.
-3. Optionally add author metadata (`CITATION.cff`, ORCID, affiliation) after the
+2. Optionally add author metadata (`CITATION.cff`, ORCID, affiliation) after the
    preferred public identity is confirmed.
-4. Complete a final professor-facing review before changing visibility.

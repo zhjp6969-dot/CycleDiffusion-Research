@@ -138,7 +138,7 @@ docs/              provenance and release-boundary documentation
 
 ## Licensing status
 
-This private review repository currently carries no redistribution license.
+This publicly accessible research repository currently carries no redistribution license.
 Original analysis software, documentation, and results will be assigned explicit
 licenses only after the remaining upstream-derived boundaries are reviewed.
 Absence of a license does not grant permission to reproduce or redistribute the

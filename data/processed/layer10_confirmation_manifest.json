@@ -1,0 +1,39 @@
+{
+  "audit": "data/processed/layer10_asset_audit.json",
+  "centroid_sentences": [
+    "011",
+    "012"
+  ],
+  "directions": 12,
+  "outputs_per_seed_variant": 180,
+  "paired_seed_rule": "sha256(layer10|seed|source|target|sentence|reference) first 31 bits",
+  "reference_sentences": [
+    "003",
+    "009",
+    "010"
+  ],
+  "rows": 1080,
+  "seeds": [
+    17,
+    37,
+    73
+  ],
+  "source_sentences": [
+    "002",
+    "004",
+    "005",
+    "006",
+    "007"
+  ],
+  "speakers": [
+    "p225",
+    "p226",
+    "p228",
+    "p232"
+  ],
+  "status": "ready",
+  "variants": [
+    "uniform_lambda100",
+    "content_only_lambda100"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-15",
+  "status": "complete",
+  "scope": "four_speakers_12_directions_5_sources_3_references",
+  "evaluation_outputs": 540,
+  "independent_source_clusters": 20,
+  "primary_result": {
+    "comparison": "joint_minus_uniform",
+    "identity_delta_mean_difference": 0.02136882725689146,
+    "identity_delta_cluster_bootstrap_95ci": [0.009552254664401216, 0.03311068358520668],
+    "identity_delta_positive_clusters": 15,
+    "robust_content_error_mean_difference": -0.0010374337751218783,
+    "robust_content_error_cluster_bootstrap_95ci": [-0.028051651983637283, 0.02868002318652112]
+  },
+  "interpretation": "Joint reliability weighting improved the WavLM identity delta over uniform continuation on this fixed grid while robust content error was indistinguishable. This is a positive controlled result, not a population-level claim.",
+  "data_boundary": "All generation and identity-centroid sentence IDs were excluded from continuation, but the epoch-50 checkpoint may have historical exposure.",
+  "inference_warning": "The 20 paired source clusters share four speakers; intervals are small-sample paired cluster-bootstrap summaries.",
+  "source": "Google Drive formal_evaluation/metrics/formal_eval_summary.json"
+}

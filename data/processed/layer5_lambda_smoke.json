@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-15",
+  "scope": "three_cycle_examples_one_diffusion_step_lambda_path_validation",
+  "not_a_quality_comparison": true,
+  "rows": [
+    {"lambda_cycle": 1.0, "direct_loss": 0.04244370013475418, "cycle_loss": 3.915460228919983, "total_loss": 3.957903929054737, "cycle_gradient_probe": 4560.50390625, "decoder_grad_norm_before_clip": 391.67230224609375},
+    {"lambda_cycle": 0.5, "direct_loss": 0.04244370013475418, "cycle_loss": 3.9154603481292725, "total_loss": 2.0001738741993904, "cycle_gradient_probe": 4560.50390625, "decoder_grad_norm_before_clip": 195.88485717773438},
+    {"lambda_cycle": 0.25, "direct_loss": 0.04244370013475418, "cycle_loss": 3.915458083152771, "total_loss": 1.021308220922947, "cycle_gradient_probe": 4560.50341796875, "decoder_grad_norm_before_clip": 97.99111938476562},
+    {"lambda_cycle": 0.0, "direct_loss": 0.04244370013475418, "cycle_loss": 0.0, "total_loss": 0.04244370013475418, "cycle_gradient_probe": null, "decoder_grad_norm_before_clip": 0.12332548201084137}
+  ]
+}

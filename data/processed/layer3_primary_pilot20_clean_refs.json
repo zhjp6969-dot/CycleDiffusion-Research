@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-15",
+  "scope": "20_step_clean_reference_continuation_pilot_not_quality_comparison",
+  "base_checkpoint_history": "epoch-50 may predate the reference exclusion",
+  "variants": {
+    "uniform": {
+      "steps": 20,
+      "cycle_loss_first5_mean": 3.591662645339966,
+      "cycle_loss_last5_mean": 1.7831325352191925,
+      "direct_loss_all_mean": 0.1143747522495687,
+      "cycle_loss_all_mean": 3.803087678551674,
+      "weight_mean": 1.0,
+      "first_cycle_gradient_probe": 89.21571350097656
+    },
+    "joint": {
+      "steps": 20,
+      "cycle_loss_first5_mean": 3.547315800189972,
+      "cycle_loss_last5_mean": 1.6859424471855164,
+      "direct_loss_all_mean": 0.11352930897846818,
+      "cycle_loss_all_mean": 3.730833438038826,
+      "weight_mean_all": 0.7455822229385376,
+      "first_cycle_gradient_probe": 89.21580505371094
+    }
+  }
+}

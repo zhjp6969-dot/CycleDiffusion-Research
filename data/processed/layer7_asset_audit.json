@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-15",
+  "status": "blocked_missing_four_speakers",
+  "available_dataset": "VCTK_2F2M",
+  "speaker_count": 4,
+  "speakers": ["p236", "p239", "p259", "p263"],
+  "mel_files": 1884,
+  "embedding_files": 1899,
+  "wav_files": 1884,
+  "text_files": 1946,
+  "drive_relevant_top_level": ["CycleDiffusion.zip", "CycleDiffusion_results"],
+  "required_to_resume": "An authorized, preprocessed four-speaker addition with matching WAV, Mel, embedding, and transcript assets."
+}

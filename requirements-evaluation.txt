@@ -1,0 +1,11 @@
+# Exact Colab package versions were not captured. These unpinned names document
+# the dependencies imported by the archived evaluation scripts; they are not an
+# environment lockfile.
+librosa
+matplotlib
+numpy
+pandas
+scipy
+soundfile
+torch
+transformers

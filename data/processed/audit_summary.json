@@ -1,0 +1,122 @@
+{
+  "audit": {
+    "converted_outputs": 900,
+    "original_source_rows": 20,
+    "speaker_count": 4,
+    "direction_count": 12,
+    "independent_source_clusters": 20,
+    "direction_source_clusters": 60,
+    "paired_direction_source_reference_units": 180,
+    "alpha_values": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "tables_key_aligned": true,
+    "duplicate_converted_keys": 0,
+    "clipping_rule": "exclude a direction/source/reference unit at every alpha if any output has clip_fraction > 0.01",
+    "excluded_paired_keys": [
+      [
+        "p259",
+        "p236",
+        5,
+        2
+      ],
+      [
+        "p263",
+        "p236",
+        5,
+        3
+      ]
+    ],
+    "excluded_outputs": 10,
+    "minor_clipping_outputs_not_excluded": 1,
+    "generation_code_present": true,
+    "generation_protocol_inspectable": true,
+    "generation_weights_present": false,
+    "environment_lockfile_present": false,
+    "human_listener_evaluation_performed": false
+  },
+  "reference_sensitivity": {
+    "directions_with_complete_reference_alpha_agreement": 5,
+    "total_directions": 12,
+    "nonzero_direction_optima": 8,
+    "nonzero_directions_positive_for_all_references": 5
+  },
+  "identity_only_loso_after_exclusion": {
+    "n_source_clusters": 20,
+    "mean_identity_gain": 0.006595285236835479,
+    "identity_gain_bootstrap_95ci": [
+      0.0017212192217508945,
+      0.012144474188486734
+    ],
+    "positive_identity_clusters": 14,
+    "mean_robust_content_change": 0.008560010129277085,
+    "content_change_bootstrap_95ci": [
+      0.001346828308891638,
+      0.01575135762550263
+    ],
+    "positive_content_error_clusters": 13
+  },
+  "pareto_alphas_by_direction": {
+    "p236->p239": [
+      0.75,
+      1.0
+    ],
+    "p236->p259": [
+      0.0,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "p236->p263": [
+      0.0,
+      1.0
+    ],
+    "p239->p236": [
+      0.0,
+      0.25
+    ],
+    "p239->p259": [
+      0.5,
+      0.75,
+      1.0
+    ],
+    "p239->p263": [
+      0.75
+    ],
+    "p259->p236": [
+      0.0,
+      1.0
+    ],
+    "p259->p239": [
+      0.0,
+      0.25
+    ],
+    "p259->p263": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "p263->p236": [
+      0.0,
+      0.25,
+      0.5
+    ],
+    "p263->p239": [
+      0.0
+    ],
+    "p263->p259": [
+      0.25
+    ]
+  },
+  "interpretation": [
+    "A single fixed alpha is not supported as a universal improvement.",
+    "Reference choice changes the descriptive alpha optimum in most directions.",
+    "Identity-only calibration yields a small average identity gain with a measurable content-error increase.",
+    "Results are diagnostic and objective-metric based; no perceptual superiority claim is supported."
+  ]
+}

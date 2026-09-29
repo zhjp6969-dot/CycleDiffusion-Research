@@ -1,0 +1,92 @@
+{
+  "checked_on": "2026-09-23",
+  "record_type": "historical_preflight_snapshot",
+  "superseded_by": "data/processed/layer10_confirmation/analysis/layer10_summary.json",
+  "discovery_speakers": [
+    "p236",
+    "p239",
+    "p259",
+    "p263"
+  ],
+  "evidence_checked": [
+    "workspace dataset directories",
+    "local private CycleDiffusion archive central directory",
+    "data/processed/layer7_asset_audit.json"
+  ],
+  "candidate_raw_source": {
+    "authoritative_origin": "https://www.cstr.ed.ac.uk/downloads/",
+    "kaggle_mirror": "https://www.kaggle.com/datasets/mfekadu/english-multispeaker-corpus-for-voice-cloning",
+    "status": "attached_in_layer10_kaggle_notebook",
+    "warning": "Record the exact VCTK release and preserve attribution before preprocessing."
+  },
+  "frozen_confirmation_cohort": {
+    "selection_rule": "first two eligible English-accent female speakers and first two eligible English-accent male speakers after excluding all discovery speakers",
+    "speakers": {
+      "p225": {"gender": "F", "common_items": 231, "training_items": 221},
+      "p228": {"gender": "F", "common_items": 366, "training_items": 356},
+      "p226": {"gender": "M", "common_items": 356, "training_items": 346},
+      "p232": {"gender": "M", "common_items": 412, "training_items": 402}
+    },
+    "total_common_items": 1365
+  },
+  "independent_replication_speakers_available": 4,
+  "layer10_protocol_ready": true,
+  "preprocessing_pipeline_ready": true,
+  "observed_speakers": [
+    "p236",
+    "p239",
+    "p259",
+    "p263"
+  ],
+  "kaggle_notebook": "https://www.kaggle.com/code/jinpeng12353/cyclediffusion-layer-10-independent-confirmation/edit",
+  "kaggle_training_notebook": "https://www.kaggle.com/code/jinpeng12353/cyclediffusion-layer-10-clean-training/edit",
+  "kaggle_private_encoder_dataset": "https://www.kaggle.com/datasets/jinpeng12353/cyclediffusion-layer-10-speaker-encoder",
+  "kaggle_private_preprocessed_cohort": "https://www.kaggle.com/datasets/jinpeng12353/cyclediffusion-layer-10-preprocessed-cohort",
+  "kaggle_private_training_state": "https://www.kaggle.com/datasets/jinpeng12353/cyclediffusion-layer-10-training-state",
+  "preflight": {
+    "asset_audit": "pass",
+    "asset_audit_record": "data/processed/layer10_asset_audit.json",
+    "aligned_items": 1365,
+    "manifest_rows": 1080,
+    "manifest": "data/processed/layer10_confirmation_manifest.csv",
+    "manifest_summary": "data/processed/layer10_confirmation_manifest.json",
+    "evidence_checksums": "data/processed/layer10_preflight_evidence.sha256",
+    "kaggle_version": 1,
+    "kaggle_version_name": "Layer 10 preflight complete",
+    "saved_output_size_mib": 380.6
+  },
+  "reason": "Historical readiness record retained for provenance; the three-seed confirmation has since completed.",
+  "speaker_encoder_checkpoint": {
+    "required_filename": "pretrained.pt",
+    "sha256": "39373b86598fa3da9fcddee6142382efe09777e8d37dc9c0561f41f0070f134e",
+    "status": "uploaded_mounted_and_sha256_verified",
+    "forbidden_substitute": "enc.pt"
+  },
+  "training": {
+    "confirmation_seeds": [17, 37, 73],
+    "seed17": {
+      "base_epochs_completed_and_persisted": 50,
+      "matched_branch_steps_completed_and_persisted": 461,
+      "variants": ["uniform_lambda100", "content_only_lambda100"],
+      "retained_working_files": [
+        "seed17/base/vc_50.pt",
+        "seed17/uniform_lambda100/vc_step461.pt",
+        "seed17/content_only_lambda100/vc_step461.pt"
+      ],
+      "local_backup": {
+        "path": "local private backup (not published)",
+        "bytes": 1521336320,
+        "sha256_manifest_embedded": true,
+        "all_nine_files_verified": true
+      },
+      "cleanup": "smoke runs, rolling states, and redundant intermediate checkpoints removed from Kaggle working storage after verified local backup; persisted Kaggle dataset version remains available"
+    },
+    "seed37_seed73": {
+      "base_training": "running in parallel on the two T4 GPUs",
+      "current_chunk": "epochs 1-10",
+      "persistence_plan": "upload both rolling states and checkpoints after every 10-epoch chunk through epoch 50"
+    },
+    "claim_boundary": "recoverability milestone only; no model-quality result"
+  },
+  "status": "superseded_by_completed_confirmation"
+}

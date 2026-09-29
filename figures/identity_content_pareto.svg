@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="730" viewBox="0 0 1000 730">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,sans-serif;fill:#17202a}.title{font-size:20px;font-weight:700}.h{font-size:13px;font-weight:700}.t{font-size:10px}.axis{stroke:#aab7b8;stroke-width:1}</style>
+<text x="22" y="30" class="title">Identity–content Pareto analysis by conversion direction</text>
+<text x="22" y="49" class="t">Higher is better for identity (vertical); lower is better for robust content error (horizontal). Ringed points are Pareto-optimal.</text>
+<text x="47" y="80" class="h">p236 → p239</text>
+<line x1="70" y1="232" x2="260" y2="232" class="axis"/>
+<line x1="70" y1="96" x2="70" y2="232" class="axis"/>
+<circle cx="155.5" cy="216.3" r="7" fill="#440154" stroke="#ffffff" stroke-width="1"/>
+<text x="163.5" y="210.3" class="t">0</text>
+<circle cx="193.8" cy="196.9" r="7" fill="#3b528b" stroke="#ffffff" stroke-width="1"/>
+<text x="201.8" y="190.9" class="t">0.25</text>
+<circle cx="238.1" cy="192.6" r="7" fill="#21918c" stroke="#ffffff" stroke-width="1"/>
+<text x="246.1" y="186.6" class="t">0.5</text>
+<circle cx="206.4" cy="111.7" r="7" fill="#5ec962" stroke="#111111" stroke-width="2.5"/>
+<text x="214.4" y="105.7" class="t">0.75</text>
+<circle cx="91.9" cy="116.0" r="7" fill="#d4b800" stroke="#111111" stroke-width="2.5"/>
+<text x="99.9" y="110.0" class="t">1</text>
+<text x="165" y="250" text-anchor="middle" class="t">content error →</text>
+<text x="282" y="80" class="h">p236 → p259</text>
+<line x1="305" y1="232" x2="495" y2="232" class="axis"/>
+<line x1="305" y1="96" x2="305" y2="232" class="axis"/>
+<circle cx="336.1" cy="203.1" r="7" fill="#440154" stroke="#111111" stroke-width="2.5"/>
+<text x="344.1" y="197.1" class="t">0</text>
+<circle cx="463.9" cy="189.4" r="7" fill="#3b528b" stroke="#ffffff" stroke-width="1"/>
+<text x="471.9" y="183.4" class="t">0.25</text>
+<circle cx="371.6" cy="153.8" r="7" fill="#21918c" stroke="#111111" stroke-width="2.5"/>
+<text x="379.6" y="147.8" class="t">0.5</text>
+<circle cx="388.7" cy="142.6" r="7" fill="#5ec962" stroke="#111111" stroke-width="2.5"/>
+<text x="396.7" y="136.6" class="t">0.75</text>
+<circle cx="409.4" cy="124.9" r="7" fill="#d4b800" stroke="#111111" stroke-width="2.5"/>
+<text x="417.4" y="118.9" class="t">1</text>
+<text x="400" y="250" text-anchor="middle" class="t">content error →</text>
+<text x="517" y="80" class="h">p236 → p263</text>
+<line x1="540" y1="232" x2="730" y2="232" class="axis"/>
+<line x1="540" y1="96" x2="540" y2="232" class="axis"/>
+<circle cx="633.1" cy="111.7" r="7" fill="#440154" stroke="#111111" stroke-width="2.5"/>
+<text x="641.1" y="105.7" class="t">0</text>
+<circle cx="708.1" cy="140.4" r="7" fill="#3b528b" stroke="#ffffff" stroke-width="1"/>
+<text x="716.1" y="134.4" class="t">0.25</text>
+<circle cx="669.4" cy="159.3" r="7" fill="#21918c" stroke="#ffffff" stroke-width="1"/>
+<text x="677.4" y="153.3" class="t">0.5</text>
+<circle cx="656.3" cy="192.3" r="7" fill="#5ec962" stroke="#ffffff" stroke-width="1"/>
+<text x="664.3" y="186.3" class="t">0.75</text>
+<circle cx="561.9" cy="216.3" r="7" fill="#d4b800" stroke="#111111" stroke-width="2.5"/>
+<text x="569.9" y="210.3" class="t">1</text>
+<text x="635" y="250" text-anchor="middle" class="t">content error →</text>
+<text x="752" y="80" class="h">p239 → p236</text>
+<line x1="775" y1="232" x2="965" y2="232" class="axis"/>
+<line x1="775" y1="96" x2="775" y2="232" class="axis"/>
+<circle cx="796.9" cy="202.8" r="7" fill="#440154" stroke="#111111" stroke-width="2.5"/>
+<text x="804.9" y="196.8" class="t">0</text>
+<circle cx="853.6" cy="125.2" r="7" fill="#3b528b" stroke="#111111" stroke-width="2.5"/>
+<text x="861.6" y="119.2" class="t">0.25</text>
+<circle cx="864.0" cy="144.2" r="7" fill="#21918c" stroke="#ffffff" stroke-width="1"/>
+<text x="872.0" y="138.2" class="t">0.5</text>
+<circle cx="883.9" cy="125.4" r="7" fill="#5ec962" stroke="#ffffff" stroke-width="1"/>
+<text x="891.9" y="119.4" class="t">0.75</text>
+<circle cx="943.1" cy="192.6" r="7" fill="#d4b800" stroke="#ffffff" stroke-width="1"/>
+<text x="951.1" y="186.6" class="t">1</text>
+<text x="870" y="250" text-anchor="middle" class="t">content error →</text>
+<text x="47" y="280" class="h">p239 → p259</text>
+<line x1="70" y1="432" x2="260" y2="432" class="axis"/>
+<line x1="70" y1="296" x2="70" y2="432" class="axis"/>
+<circle cx="231.6" cy="327.7" r="7" fill="#440154" stroke="#ffffff" stroke-width="1"/>
+<text x="239.6" y="321.7" class="t">0</text>
+<circle cx="105.3" cy="404.9" r="7" fill="#3b528b" stroke="#ffffff" stroke-width="1"/>
+<text x="113.3" y="398.9" class="t">0.25</text>
+<circle cx="98.4" cy="398.3" r="7" fill="#21918c" stroke="#111111" stroke-width="2.5"/>
+<text x="106.4" y="392.3" class="t">0.5</text>
+<circle cx="186.8" cy="373.5" r="7" fill="#5ec962" stroke="#111111" stroke-width="2.5"/>
+<text x="194.8" y="367.5" class="t">0.75</text>
+<circle cx="224.7" cy="323.1" r="7" fill="#d4b800" stroke="#111111" stroke-width="2.5"/>
+<text x="232.7" y="317.1" class="t">1</text>
+<text x="165" y="450" text-anchor="middle" class="t">content error →</text>
+<text x="282" y="280" class="h">p239 → p263</text>
+<line x1="305" y1="432" x2="495" y2="432" class="axis"/>
+<line x1="305" y1="296" x2="305" y2="432" class="axis"/>
+<circle cx="411.9" cy="370.7" r="7" fill="#440154" stroke="#ffffff" stroke-width="1"/>
+<text x="419.9" y="364.7" class="t">0</text>
+<circle cx="402.7" cy="360.9" r="7" fill="#3b528b" stroke="#ffffff" stroke-width="1"/>
+<text x="410.7" y="354.9" class="t">0.25</text>
+<circle cx="433.1" cy="399.0" r="7" fill="#21918c" stroke="#ffffff" stroke-width="1"/>
+<text x="441.1" y="393.0" class="t">0.5</text>
+<circle cx="326.9" cy="329.0" r="7" fill="#5ec962" stroke="#111111" stroke-width="2.5"/>
+<text x="334.9" y="323.0" class="t">0.75</text>
+<circle cx="473.1" cy="337.9" r="7" fill="#d4b800" stroke="#ffffff" stroke-width="1"/>
+<text x="481.1" y="331.9" class="t">1</text>
+<text x="400" y="450" text-anchor="middle" class="t">content error →</text>
+<text x="517" y="280" class="h">p259 → p236</text>
+<line x1="540" y1="432" x2="730" y2="432" class="axis"/>
+<line x1="540" y1="296" x2="540" y2="432" class="axis"/>
+<circle cx="625.9" cy="311.7" r="7" fill="#440154" stroke="#111111" stroke-width="2.5"/>
+<text x="633.9" y="305.7" class="t">0</text>
+<circle cx="675.7" cy="329.8" r="7" fill="#3b528b" stroke="#ffffff" stroke-width="1"/>
+<text x="683.7" y="323.8" class="t">0.25</text>
+<circle cx="705.2" cy="355.1" r="7" fill="#21918c" stroke="#ffffff" stroke-width="1"/>
+<text x="713.2" y="349.1" class="t">0.5</text>
+<circle cx="661.3" cy="356.1" r="7" fill="#5ec962" stroke="#ffffff" stroke-width="1"/>
+<text x="669.3" y="350.1" class="t">0.75</text>
+<circle cx="564.8" cy="416.3" r="7" fill="#d4b800" stroke="#111111" stroke-width="2.5"/>
+<text x="572.8" y="410.3" class="t">1</text>
+<text x="635" y="450" text-anchor="middle" class="t">content error →</text>
+<text x="752" y="280" class="h">p259 → p239</text>
+<line x1="775" y1="432" x2="965" y2="432" class="axis"/>
+<line x1="775" y1="296" x2="775" y2="432" class="axis"/>
+<circle cx="929.4" cy="311.7" r="7" fill="#440154" stroke="#111111" stroke-width="2.5"/>
+<text x="937.4" y="305.7" class="t">0</text>
+<circle cx="810.6" cy="362.9" r="7" fill="#3b528b" stroke="#111111" stroke-width="2.5"/>
+<text x="818.6" y="356.9" class="t">0.25</text>
+<circle cx="834.4" cy="376.7" r="7" fill="#21918c" stroke="#ffffff" stroke-width="1"/>
+<text x="842.4" y="370.7" class="t">0.5</text>
+<circle cx="838.0" cy="396.1" r="7" fill="#5ec962" stroke="#ffffff" stroke-width="1"/>
+<text x="846.0" y="390.1" class="t">0.75</text>
+<circle cx="917.1" cy="416.3" r="7" fill="#d4b800" stroke="#ffffff" stroke-width="1"/>
+<text x="925.1" y="410.3" class="t">1</text>
+<text x="870" y="450" text-anchor="middle" class="t">content error →</text>
+<text x="47" y="480" class="h">p259 → p263</text>
+<line x1="70" y1="632" x2="260" y2="632" class="axis"/>
+<line x1="70" y1="496" x2="70" y2="632" class="axis"/>
+<circle cx="99.9" cy="616.3" r="7" fill="#440154" stroke="#111111" stroke-width="2.5"/>
+<text x="107.9" y="610.3" class="t">0</text>
+<circle cx="139.7" cy="580.0" r="7" fill="#3b528b" stroke="#111111" stroke-width="2.5"/>
+<text x="147.7" y="574.0" class="t">0.25</text>
+<circle cx="222.9" cy="548.9" r="7" fill="#21918c" stroke="#111111" stroke-width="2.5"/>
+<text x="230.9" y="542.9" class="t">0.5</text>
+<circle cx="230.1" cy="520.7" r="7" fill="#5ec962" stroke="#ffffff" stroke-width="1"/>
+<text x="238.1" y="514.7" class="t">0.75</text>
+<circle cx="230.1" cy="511.7" r="7" fill="#d4b800" stroke="#111111" stroke-width="2.5"/>
+<text x="238.1" y="505.7" class="t">1</text>
+<text x="165" y="650" text-anchor="middle" class="t">content error →</text>
+<text x="282" y="480" class="h">p263 → p236</text>
+<line x1="305" y1="632" x2="495" y2="632" class="axis"/>
+<line x1="305" y1="496" x2="305" y2="632" class="axis"/>
+<circle cx="326.9" cy="562.5" r="7" fill="#440154" stroke="#111111" stroke-width="2.5"/>
+<text x="334.9" y="556.5" class="t">0</text>
+<circle cx="381.5" cy="520.9" r="7" fill="#3b528b" stroke="#111111" stroke-width="2.5"/>
+<text x="389.5" y="514.9" class="t">0.25</text>
+<circle cx="329.2" cy="550.1" r="7" fill="#21918c" stroke="#111111" stroke-width="2.5"/>
+<text x="337.2" y="544.1" class="t">0.5</text>
+<circle cx="448.5" cy="570.4" r="7" fill="#5ec962" stroke="#ffffff" stroke-width="1"/>
+<text x="456.5" y="564.4" class="t">0.75</text>
+<circle cx="473.1" cy="607.1" r="7" fill="#d4b800" stroke="#ffffff" stroke-width="1"/>
+<text x="481.1" y="601.1" class="t">1</text>
+<text x="400" y="650" text-anchor="middle" class="t">content error →</text>
+<text x="517" y="480" class="h">p263 → p239</text>
+<line x1="540" y1="632" x2="730" y2="632" class="axis"/>
+<line x1="540" y1="496" x2="540" y2="632" class="axis"/>
+<circle cx="561.9" cy="511.7" r="7" fill="#440154" stroke="#111111" stroke-width="2.5"/>
+<text x="569.9" y="505.7" class="t">0</text>
+<circle cx="610.6" cy="544.8" r="7" fill="#3b528b" stroke="#ffffff" stroke-width="1"/>
+<text x="618.6" y="538.8" class="t">0.25</text>
+<circle cx="618.2" cy="561.6" r="7" fill="#21918c" stroke="#ffffff" stroke-width="1"/>
+<text x="626.2" y="555.6" class="t">0.5</text>
+<circle cx="629.5" cy="582.0" r="7" fill="#5ec962" stroke="#ffffff" stroke-width="1"/>
+<text x="637.5" y="576.0" class="t">0.75</text>
+<circle cx="708.1" cy="616.3" r="7" fill="#d4b800" stroke="#ffffff" stroke-width="1"/>
+<text x="716.1" y="610.3" class="t">1</text>
+<text x="635" y="650" text-anchor="middle" class="t">content error →</text>
+<text x="752" y="480" class="h">p263 → p259</text>
+<line x1="775" y1="632" x2="965" y2="632" class="axis"/>
+<line x1="775" y1="496" x2="775" y2="632" class="axis"/>
+<circle cx="823.0" cy="537.7" r="7" fill="#440154" stroke="#ffffff" stroke-width="1"/>
+<text x="831.0" y="531.7" class="t">0</text>
+<circle cx="796.9" cy="513.9" r="7" fill="#3b528b" stroke="#111111" stroke-width="2.5"/>
+<text x="804.9" y="507.9" class="t">0.25</text>
+<circle cx="843.7" cy="606.7" r="7" fill="#21918c" stroke="#ffffff" stroke-width="1"/>
+<text x="851.7" y="600.7" class="t">0.5</text>
+<circle cx="895.5" cy="610.4" r="7" fill="#5ec962" stroke="#ffffff" stroke-width="1"/>
+<text x="903.5" y="604.4" class="t">0.75</text>
+<circle cx="943.1" cy="614.1" r="7" fill="#d4b800" stroke="#ffffff" stroke-width="1"/>
+<text x="951.1" y="608.1" class="t">1</text>
+<text x="870" y="650" text-anchor="middle" class="t">content error →</text>
+<text x="25" y="700" class="t">Content metric = mean max(clipped WER, clipped CER), each clipped to [0,1]. Two direction/source/reference units with &gt;1% clipping are excluded at every alpha.</text>
+</svg>

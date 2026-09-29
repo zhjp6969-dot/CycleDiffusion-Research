@@ -1,0 +1,60 @@
+{
+  "analysis_unit": "seed/source_speaker/source_sentence after averaging direction and reference repeats",
+  "candidate": {
+    "lambda_cycle": 1.0,
+    "weighting": "content_only"
+  },
+  "control": {
+    "lambda_cycle": 1.0,
+    "weighting": "uniform"
+  },
+  "design": "independent_cohort_replication_not_zero_shot_generalization",
+  "discovery_speakers_forbidden": [
+    "p236",
+    "p239",
+    "p259",
+    "p263"
+  ],
+  "evaluation_centroid_sentences": [
+    "011",
+    "012"
+  ],
+  "expected_evaluation_outputs": 1080,
+  "expected_outputs_per_seed_variant": 180,
+  "expected_replication_speakers": 4,
+  "primary_identity_metric": "wavlm_target_minus_source_cosine_delta",
+  "promotion_rule": {
+    "acoustic_regression": "no systematic silence, rms, or clipping regression",
+    "content_guard": "no material robust-content penalty",
+    "identity": "positive in at least two of three seeds and pooled hierarchical interval excludes zero"
+  },
+  "reference_sentences": [
+    "003",
+    "009",
+    "010"
+  ],
+  "seeds": [
+    17,
+    37,
+    73
+  ],
+  "source_sentences": [
+    "002",
+    "004",
+    "005",
+    "006",
+    "007"
+  ],
+  "training_exclusion_sentences": [
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "009",
+    "010",
+    "011",
+    "012"
+  ]
+}

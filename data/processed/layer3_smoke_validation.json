@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-15",
+  "environment": {
+    "accelerator": "Tesla T4",
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128"
+  },
+  "data": {
+    "speakers": 4,
+    "training_items": 1844,
+    "centroid_speakers": 4
+  },
+  "checks": [
+    {
+      "diffusion_steps": 1,
+      "direct_loss": 0.031401626765728,
+      "cycle_loss": 3.3877463340759277,
+      "total_loss": 3.4191479682922363,
+      "cycle_gradient_probe": 1832.305419921875,
+      "decoder_grad_norm_before_clip": 366.6073913574219,
+      "status": "pass"
+    },
+    {
+      "diffusion_steps": 6,
+      "direct_loss": 0.031401626765728,
+      "cycle_loss": 1.306807279586792,
+      "total_loss": 1.3382089138031006,
+      "cycle_gradient_probe": 5979.17138671875,
+      "decoder_grad_norm_before_clip": 559.1168823242188,
+      "status": "pass"
+    }
+  ],
+  "interpretation": "Implementation validation only; no conversion-quality improvement claim."
+}

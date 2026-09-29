@@ -1,0 +1,45 @@
+{
+  "analysis_unit": "source_speaker/source_sentence after averaging target directions and path orders",
+  "checkpoint": "base_epoch50",
+  "design": "paired_one_two_three_hop_path_length_diagnostic",
+  "diffusion_steps": 30,
+  "evaluation_centroid_sentences": [
+    "011",
+    "012"
+  ],
+  "expected_evaluated_outputs": 420,
+  "expected_internal_intermediates": 240,
+  "expected_source_clusters": 20,
+  "expected_units": 60,
+  "hypothesis_rule": "both co-primary three-hop-minus-two-hop intervals exclude zero in the harmful direction",
+  "intermediate_reference_sentence": "003",
+  "primary_comparison": "mean_three_hop_minus_mean_two_hop",
+  "primary_metrics": [
+    "word_edit_distance",
+    "robust_content_error_change"
+  ],
+  "roles": [
+    "anchor",
+    "stochastic",
+    "alternate_reference",
+    "two_hop_via_a",
+    "two_hop_via_b",
+    "three_hop_via_a_b",
+    "three_hop_via_b_a"
+  ],
+  "source_sentences": [
+    "002",
+    "004",
+    "005",
+    "006",
+    "007"
+  ],
+  "speakers": [
+    "p236",
+    "p239",
+    "p259",
+    "p263"
+  ],
+  "target_anchor_reference_sentence": "009",
+  "target_alternate_reference_sentence": "010"
+}

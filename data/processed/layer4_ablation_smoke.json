@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-15",
+  "scope": "three_cycle_examples_one_diffusion_step_weight_behavior_validation",
+  "not_a_quality_comparison": true,
+  "rows": [
+    {"variant": "uniform", "cycle_loss": 3.955797553062439, "weight_mean": 1.0, "cycle_gradient_probe": 4560.50390625, "decoder_grad_norm_before_clip": 402.3451843261719},
+    {"variant": "speaker_only", "cycle_loss": 3.952641248703003, "weight_mean": 0.9503576159477234, "cycle_gradient_probe": 4560.50390625, "decoder_grad_norm_before_clip": 401.0019226074219},
+    {"variant": "content_only", "cycle_loss": 3.841273069381714, "weight_mean": 0.1863952875137329, "cycle_gradient_probe": 4560.50341796875, "decoder_grad_norm_before_clip": 380.3746643066406},
+    {"variant": "joint", "cycle_loss": 3.915459394454956, "weight_mean": 0.5407367944717407, "cycle_gradient_probe": 4560.50390625, "decoder_grad_norm_before_clip": 391.6718444824219},
+    {"variant": "hard_gate", "cycle_loss": 3.811005711555481, "weight_mean": 0.6666666865348816, "cycle_gradient_probe": 4560.50390625, "decoder_grad_norm_before_clip": 337.2852783203125}
+  ]
+}

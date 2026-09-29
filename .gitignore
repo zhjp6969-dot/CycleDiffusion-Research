@@ -1,0 +1,63 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Private source tables contain local paths, VCTK text, or ASR hypotheses.
+data/raw/
+reports/original_stage_report_2026-09-07.md
+reports/*_zh.md
+
+# Private-language and provenance copies are retained locally, not published.
+notebooks/CycleDiffusion_experiment_log.ipynb
+research/training_source/archived/
+scripts/reproduction/
+
+# Local Kaggle migration bundles contain private assets and raw evaluation rows.
+migration/
+
+# Layer 10 local evidence contains private Kaggle paths, VCTK text, and ASR
+# hypotheses. Public-safe aggregate analysis is mirrored one level above.
+data/processed/layer10_confirmation/layer10_essential_results.zip
+data/processed/layer10_confirmation/results/
+
+# Layer 8b local evidence contains private Kaggle paths, VCTK text, and ASR
+# hypotheses. Public-safe aggregate analysis is mirrored one level above.
+data/processed/layer8_path_length/layer8_path_length_essential_results.zip
+data/processed/layer8_path_length/results/
+
+# Local Kaggle upload payloads can contain private model/data assets.
+upload_layer10/
+upload_layer8_path_length/
+
+# Layer 8 Trinity raw rows, run paths, logs, and archives stay local. Public
+# manifests, aggregate metrics, protocol code, and integrity records remain.
+data/processed/layer8_trinity_full/evaluation/
+data/processed/layer8_trinity_full/generation/
+data/processed/layer8_trinity_full/logs/
+data/processed/layer8_trinity_full/layer8_trinity_full_evidence.tgz
+data/processed/layer8_trinity_pilot/evaluation/
+data/processed/layer8_trinity_pilot/generation/
+data/processed/layer8_trinity_pilot/logs/
+data/processed/layer8_trinity_pilot/layer8_trinity_evidence.tgz
+
+# Layer 9 raw evaluator rows, run paths, logs, and archives stay local. Public
+# aggregate analysis and path-free training metrics remain.
+data/processed/layer9_interaction/*/run_config.json
+data/processed/layer9_interaction/layer9_interaction.log
+data/processed/layer9_interaction/layer9_status.json
+data/processed/layer9_interaction/layer9_interaction/generation/
+data/processed/layer9_interaction/layer9_interaction/metrics/formal_eval_progress.jsonl
+data/processed/layer9_interaction/layer9_interaction/metrics/formal_eval_raw.csv
+data/processed/layer9_interaction/layer9_interaction_evidence.tgz
+
+# Audio, checkpoints, and model outputs are intentionally kept outside Git.
+*.wav
+*.flac
+*.mp3
+*.ckpt
+*.pt
+*.pth
+*.npz
+converted/
+VCTK_2F2M/

@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-15",
+  "scope": "descriptive_12_direction_single_source_single_reference_pilot",
+  "source_sentence": "002",
+  "target_reference_sentence": "003",
+  "identity_centroid_sentences": ["004", "005", "006", "007", "009", "010", "011", "012"],
+  "aggregate": [
+    {"variant": "base_epoch50", "identity_delta": 0.2570253039399783, "robust_content_error": 0.4772727272727273, "clip_fraction": 0.0, "silence_fraction": 0.3343917921167115},
+    {"variant": "uniform_pilot20", "identity_delta": 0.2651011422276497, "robust_content_error": 0.3562367864693446, "clip_fraction": 0.0, "silence_fraction": 0.16409672312062565},
+    {"variant": "joint_pilot20", "identity_delta": 0.2511330222090085, "robust_content_error": 0.34848484848484845, "clip_fraction": 0.0, "silence_fraction": 0.1782970027443924}
+  ],
+  "joint_minus_uniform": [
+    {"metric": "identity_delta", "mean": -0.013968120018641164, "descriptive_direction_bootstrap_ci": [-0.044628476413587706, 0.008356687923272463], "joint_better_directions": 6},
+    {"metric": "robust_content_error", "mean": -0.007751937984496114, "descriptive_direction_bootstrap_ci": [-0.08368569415081041, 0.07540521494009868], "joint_better_directions": 5},
+    {"metric": "clip_fraction", "mean": 0.0, "descriptive_direction_bootstrap_ci": [0.0, 0.0], "joint_better_directions": 0},
+    {"metric": "silence_fraction", "mean": 0.014200279623766738, "descriptive_direction_bootstrap_ci": [0.006700691805207279, 0.02213743181024465], "joint_better_directions": 2}
+  ],
+  "interpretation": "Both identity and content intervals for joint versus uniform cross zero; this pilot is not model-selection evidence."
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-22",
+  "evaluated_outputs": 96,
+  "inference_warning": "Source clusters share four speakers; this is a paired diagnostic, not population-level inference.",
+  "interpretation": "Positive composed-minus-baseline distance means the two-leg path diverges more than that direct-path control on this fixed grid.",
+  "path_excess_contrasts": [
+    {
+      "ci_high": -0.01630451798752869,
+      "ci_low": -0.055089930348979056,
+      "comparison": "composed_minus_stochastic",
+      "mean_difference": -0.03569722416825387,
+      "metric": "wavlm_cosine_distance",
+      "p_sign_flip_mc": 0.12163756724865503,
+      "positive_clusters": 0,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.15167378917378918,
+      "ci_low": 0.011027861027861038,
+      "comparison": "composed_minus_stochastic",
+      "mean_difference": 0.08135082510082511,
+      "metric": "word_edit_distance",
+      "p_sign_flip_mc": 0.25177496450070996,
+      "positive_clusters": 3,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.10070003601502528,
+      "ci_low": -0.021932903719630737,
+      "comparison": "composed_minus_stochastic",
+      "mean_difference": 0.03938356614769727,
+      "metric": "char_edit_distance",
+      "p_sign_flip_mc": 0.374612507749845,
+      "positive_clusters": 3,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.00748233745495478,
+      "ci_low": -0.060878790915012373,
+      "comparison": "composed_minus_stochastic",
+      "mean_difference": -0.02524840086698532,
+      "metric": "identity_delta_abs_change",
+      "p_sign_flip_mc": 0.37287254254914903,
+      "positive_clusters": 1,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.15530303030303036,
+      "ci_low": -0.0454545454545455,
+      "comparison": "composed_minus_stochastic",
+      "mean_difference": 0.07954545454545454,
+      "metric": "robust_content_error_abs_change",
+      "p_sign_flip_mc": 0.24957500849983,
+      "positive_clusters": 3,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.06863558288464736,
+      "ci_low": 0.041284264461329614,
+      "comparison": "composed_minus_alternate_reference",
+      "mean_difference": 0.05495992367298848,
+      "metric": "wavlm_cosine_distance",
+      "p_sign_flip_mc": 0.12685746285074298,
+      "positive_clusters": 4,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.7346801346801346,
+      "ci_low": 0.5152421652421652,
+      "comparison": "composed_minus_alternate_reference",
+      "mean_difference": 0.63004403004403,
+      "metric": "word_edit_distance",
+      "p_sign_flip_mc": 0.124557508849823,
+      "positive_clusters": 4,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.4849423625550965,
+      "ci_low": 0.3880278264229625,
+      "comparison": "composed_minus_alternate_reference",
+      "mean_difference": 0.4450726861034638,
+      "metric": "char_edit_distance",
+      "p_sign_flip_mc": 0.124817503649927,
+      "positive_clusters": 4,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.06002236778537433,
+      "ci_low": 0.03013075888156891,
+      "comparison": "composed_minus_alternate_reference",
+      "mean_difference": 0.046803805977106094,
+      "metric": "identity_delta_abs_change",
+      "p_sign_flip_mc": 0.12269754604907902,
+      "positive_clusters": 4,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    },
+    {
+      "ci_high": 0.3030303030303031,
+      "ci_low": 0.1553030303030303,
+      "comparison": "composed_minus_alternate_reference",
+      "mean_difference": 0.2386363636363637,
+      "metric": "robust_content_error_abs_change",
+      "p_sign_flip_mc": 0.12683746325073497,
+      "positive_clusters": 4,
+      "raw_paired_units": 24,
+      "source_clusters": 4,
+      "variant": "base_epoch50"
+    }
+  ],
+  "role_means": [
+    {
+      "char_edit_distance": 0.0837686836984446,
+      "comparison_role": "alternate_reference",
+      "identity_delta_abs_change": 0.010581961522499716,
+      "robust_content_error_abs_change": 0.030303030303030304,
+      "variant": "base_epoch50",
+      "wavlm_cosine_distance": 0.002902716119907824,
+      "word_edit_distance": 0.13269670144670145
+    },
+    {
+      "char_edit_distance": 0.5288413698019084,
+      "comparison_role": "composed",
+      "identity_delta_abs_change": 0.05738576749960581,
+      "robust_content_error_abs_change": 0.268939393939394,
+      "variant": "base_epoch50",
+      "wavlm_cosine_distance": 0.057862639792896305,
+      "word_edit_distance": 0.7627407314907315
+    },
+    {
+      "char_edit_distance": 0.48945780365421115,
+      "comparison_role": "stochastic",
+      "identity_delta_abs_change": 0.08263416836659114,
+      "robust_content_error_abs_change": 0.18939393939393942,
+      "variant": "base_epoch50",
+      "wavlm_cosine_distance": 0.09355986396115018,
+      "word_edit_distance": 0.6813899063899064
+    }
+  ],
+  "roles": [
+    "anchor",
+    "stochastic",
+    "alternate_reference",
+    "composed"
+  ],
+  "source_clusters_per_variant": {
+    "base_epoch50": 4
+  },
+  "status": "complete",
+  "variant_units": 24
+}

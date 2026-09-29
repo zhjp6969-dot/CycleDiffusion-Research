@@ -1,0 +1,11 @@
+comparison,metric,source_units,seeds,mean_difference,hierarchical_ci_low,hierarchical_ci_high,positive_seed_count
+content_only_minus_uniform,identity_delta,60,3,0.01753026500896171,-0.009670449350443151,0.03982672269835516,2
+content_only_minus_uniform,robust_content_error,60,3,-0.04037716948202882,-0.08307141551259198,-0.003399124170010787,0
+content_only_minus_uniform,wer,60,3,-0.03469994058229348,-0.35663159371492703,0.30249055918663775,1
+content_only_minus_uniform,cer,60,3,-0.029669666291818924,-0.325158640801076,0.29032503802793724,1
+content_only_minus_uniform,clip_fraction,60,3,-5.615643363365709e-08,-2.0689584165154919e-07,0.0,0
+content_only_minus_uniform,silence_fraction,60,3,-0.02064194551026603,-0.04611704744476107,0.002420091956856573,1
+content_only_minus_uniform,rms_dbfs,60,3,-0.10931914732190369,-0.9409309940486381,1.153479151601052,1
+content_only_minus_uniform,peak_dbfs,60,3,0.0800496681752542,-0.7462788875598452,0.6907472937876116,2
+content_only_minus_uniform,duration_s,60,3,0.0,0.0,0.0,0
+content_only_minus_uniform,generation_seconds,60,3,-0.012309443009169625,-0.06434959826934844,0.02220075711697566,2

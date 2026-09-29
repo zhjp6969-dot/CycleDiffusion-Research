@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-15",
+  "configuration": {
+    "batch_size": 4,
+    "cycle_batch_size": 3,
+    "diffusion_steps": 6,
+    "variant": "joint",
+    "lambda_cycle": 1.0
+  },
+  "vectorized_attempt": {
+    "status": "fail",
+    "reason": "CUDA out of memory",
+    "allocated_gib": 14.24
+  },
+  "sequential_cycle_backprop_attempt": {
+    "status": "pass",
+    "training_step_seconds": 6.85,
+    "direct_loss": 0.04244370013475418,
+    "cycle_loss": 1.011048436164856,
+    "total_loss": 1.0534921362996101,
+    "cycle_gradient_probe": 89.21578979492188,
+    "decoder_grad_norm_before_clip": 111.0233383178711
+  },
+  "objective_equivalence": "Direct loss is backpropagated first; the three detached-weight-normalized cycle contributions are then backpropagated sequentially before a single optimizer step."
+}

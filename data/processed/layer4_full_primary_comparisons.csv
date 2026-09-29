@@ -1,0 +1,9 @@
+comparison,metric,mean_difference,ci_low,ci_high,p_t
+speaker_only_e51_minus_uniform,identity_delta,0.003370,-0.006748,0.013051,0.523755
+speaker_only_e51_minus_uniform,robust_content_error,-0.010406,-0.030636,0.010918,0.350453
+content_only_e51_minus_uniform,identity_delta,0.033699,0.021399,0.046510,0.0000616
+content_only_e51_minus_uniform,robust_content_error,-0.015900,-0.045179,0.013440,0.316987
+joint_e51_minus_uniform,identity_delta,0.021369,0.009641,0.033079,0.00251971
+joint_e51_minus_uniform,robust_content_error,-0.001037,-0.028194,0.028327,0.945002
+hard_gate_e51_minus_uniform,identity_delta,0.019519,0.007879,0.031928,0.00595963
+hard_gate_e51_minus_uniform,robust_content_error,0.001462,-0.027285,0.029683,0.923167

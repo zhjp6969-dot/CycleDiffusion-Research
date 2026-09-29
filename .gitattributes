@@ -1,0 +1,5 @@
+# Preserve recovered source bytes, including legacy trailing spaces.
+scripts/reproduction/* -whitespace
+research/training_source/archived/** -whitespace
+# Preserve byte-exact extracted evidence from the Kaggle Layer 8 archive.
+data/processed/layer8_trinity_full/** -whitespace

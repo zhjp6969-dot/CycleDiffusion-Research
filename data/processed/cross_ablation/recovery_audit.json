@@ -1,0 +1,111 @@
+{
+  "available_evidence": [
+    "Layer 4 variant means",
+    "Layer 5 variant means and Layer 5 paired source-cluster rows",
+    "rendered Kaggle Version 1 execution record"
+  ],
+  "comparisons": [
+    {
+      "comparison": "content_only_minus_joint",
+      "direction_favors_left": true,
+      "inference_status": "descriptive_only_raw_pairing_unavailable",
+      "left_mean": 0.331041,
+      "left_variant": "content_only_e51",
+      "mean_difference": 0.012329999999999952,
+      "metric": "identity_delta",
+      "right_mean": 0.318711,
+      "right_variant": "joint_e51"
+    },
+    {
+      "comparison": "content_only_minus_joint",
+      "direction_favors_left": true,
+      "inference_status": "descriptive_only_raw_pairing_unavailable",
+      "left_mean": 0.340766,
+      "left_variant": "content_only_e51",
+      "mean_difference": -0.01486299999999996,
+      "metric": "robust_content_error",
+      "right_mean": 0.355629,
+      "right_variant": "joint_e51"
+    },
+    {
+      "comparison": "content_only_minus_joint",
+      "direction_favors_left": true,
+      "inference_status": "descriptive_only_raw_pairing_unavailable",
+      "left_mean": 0.340476,
+      "left_variant": "content_only_e51",
+      "mean_difference": -0.014963999999999977,
+      "metric": "wer",
+      "right_mean": 0.35544,
+      "right_variant": "joint_e51"
+    },
+    {
+      "comparison": "content_only_minus_joint",
+      "direction_favors_left": true,
+      "inference_status": "descriptive_only_raw_pairing_unavailable",
+      "left_mean": 0.204871,
+      "left_variant": "content_only_e51",
+      "mean_difference": -0.016091999999999995,
+      "metric": "cer",
+      "right_mean": 0.220963,
+      "right_variant": "joint_e51"
+    },
+    {
+      "comparison": "content_only_minus_joint_lambda025",
+      "direction_favors_left": false,
+      "inference_status": "descriptive_only_raw_pairing_unavailable",
+      "left_mean": 0.331041,
+      "left_variant": "content_only_e51",
+      "mean_difference": -0.004574303946865921,
+      "metric": "identity_delta",
+      "right_mean": 0.3356153039468659,
+      "right_variant": "joint_lambda025_e51"
+    },
+    {
+      "comparison": "content_only_minus_joint_lambda025",
+      "direction_favors_left": true,
+      "inference_status": "descriptive_only_raw_pairing_unavailable",
+      "left_mean": 0.340766,
+      "left_variant": "content_only_e51",
+      "mean_difference": -0.017862550099138286,
+      "metric": "robust_content_error",
+      "right_mean": 0.3586285500991383,
+      "right_variant": "joint_lambda025_e51"
+    },
+    {
+      "comparison": "content_only_minus_joint_lambda025",
+      "direction_favors_left": true,
+      "inference_status": "descriptive_only_raw_pairing_unavailable",
+      "left_mean": 0.340476,
+      "left_variant": "content_only_e51",
+      "mean_difference": -0.15652538641315106,
+      "metric": "wer",
+      "right_mean": 0.49700138641315106,
+      "right_variant": "joint_lambda025_e51"
+    },
+    {
+      "comparison": "content_only_minus_joint_lambda025",
+      "direction_favors_left": true,
+      "inference_status": "descriptive_only_raw_pairing_unavailable",
+      "left_mean": 0.204871,
+      "left_variant": "content_only_e51",
+      "mean_difference": -0.13153594553586975,
+      "metric": "cer",
+      "right_mean": 0.33640694553586975,
+      "right_variant": "joint_lambda025_e51"
+    }
+  ],
+  "date": "2026-09-22",
+  "missing_evidence": [
+    "Layer 4 component-level formal_eval_raw.csv",
+    "Layer 4 source-cluster differences for joint_minus_content_only"
+  ],
+  "recovery_audit": {
+    "former_draft_archive_bytes": 5486720920,
+    "kaggle_version": 1,
+    "persisted_output_files": 0,
+    "private_asset_component_rows_found": 0,
+    "script_version_id": 350266488
+  },
+  "required_next_action": "Restore the original Layer 4 raw table or regenerate only the content_only_e51 180-item formal grid before paired inference.",
+  "status": "descriptive_only_blocked_for_paired_inference"
+}

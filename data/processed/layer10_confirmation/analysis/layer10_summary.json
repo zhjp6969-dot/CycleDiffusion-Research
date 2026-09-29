@@ -1,0 +1,333 @@
+{
+  "analysis_unit_definition": "seed/source_speaker/source_sentence after averaging target and reference repeats",
+  "analysis_units": 60,
+  "automatic_promotion": false,
+  "automatic_promotion_reason": "identity is rule-based; content and acoustic guards require the predeclared qualitative review because no numeric margins were frozen",
+  "comparison": "content_only_lambda100_minus_uniform_lambda100",
+  "content_guard": {
+    "adjudication": "report_only: the frozen protocol did not assign a numeric material-penalty margin",
+    "hierarchical_ci": [
+      -0.08307141551259198,
+      -0.003399124170010787
+    ],
+    "mean_difference": -0.04037716948202882
+  },
+  "evaluation_outputs": 1080,
+  "identity_promotion_criterion_met": false,
+  "per_seed_effects": [
+    {
+      "mean_difference": 0.03473758565054998,
+      "metric": "identity_delta",
+      "positive_source_units": 15,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.029016372892591687,
+      "metric": "identity_delta",
+      "positive_source_units": 17,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.011163163516256545,
+      "metric": "identity_delta",
+      "positive_source_units": 8,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.005432452599971787,
+      "metric": "robust_content_error",
+      "positive_source_units": 10,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.0832297713180066,
+      "metric": "robust_content_error",
+      "positive_source_units": 3,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.03246928452810805,
+      "metric": "robust_content_error",
+      "positive_source_units": 6,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.30131560705090116,
+      "metric": "wer",
+      "positive_source_units": 11,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.2839844523668053,
+      "metric": "wer",
+      "positive_source_units": 2,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.1214309764309764,
+      "metric": "wer",
+      "positive_source_units": 6,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.2911382292860566,
+      "metric": "cer",
+      "positive_source_units": 12,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.27894414393172073,
+      "metric": "cer",
+      "positive_source_units": 2,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.10120308422979263,
+      "metric": "cer",
+      "positive_source_units": 6,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.0,
+      "metric": "clip_fraction",
+      "positive_source_units": 0,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -1.6846930090097127e-07,
+      "metric": "clip_fraction",
+      "positive_source_units": 0,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.0,
+      "metric": "clip_fraction",
+      "positive_source_units": 0,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.01796994307999706,
+      "metric": "silence_fraction",
+      "positive_source_units": 0,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.04687528175589363,
+      "metric": "silence_fraction",
+      "positive_source_units": 0,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.0029193883050926068,
+      "metric": "silence_fraction",
+      "positive_source_units": 13,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.5933716221467413,
+      "metric": "rms_dbfs",
+      "positive_source_units": 1,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 1.2138353833494888,
+      "metric": "rms_dbfs",
+      "positive_source_units": 17,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.9484212031684583,
+      "metric": "rms_dbfs",
+      "positive_source_units": 0,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.44177153556328647,
+      "metric": "peak_dbfs",
+      "positive_source_units": 15,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.6008655017201482,
+      "metric": "peak_dbfs",
+      "positive_source_units": 13,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.8024880327576721,
+      "metric": "peak_dbfs",
+      "positive_source_units": 2,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.0,
+      "metric": "duration_s",
+      "positive_source_units": 0,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.0,
+      "metric": "duration_s",
+      "positive_source_units": 0,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.0,
+      "metric": "duration_s",
+      "positive_source_units": 0,
+      "seed": 73,
+      "source_units": 20
+    },
+    {
+      "mean_difference": -0.06524586343887531,
+      "metric": "generation_seconds",
+      "positive_source_units": 6,
+      "seed": 17,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.020621665772270877,
+      "metric": "generation_seconds",
+      "positive_source_units": 12,
+      "seed": 37,
+      "source_units": 20
+    },
+    {
+      "mean_difference": 0.007695868639095568,
+      "metric": "generation_seconds",
+      "positive_source_units": 11,
+      "seed": 73,
+      "source_units": 20
+    }
+  ],
+  "pooled_effects": [
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 0.03982672269835516,
+      "hierarchical_ci_low": -0.009670449350443151,
+      "mean_difference": 0.01753026500896171,
+      "metric": "identity_delta",
+      "positive_seed_count": 2,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": -0.003399124170010787,
+      "hierarchical_ci_low": -0.08307141551259198,
+      "mean_difference": -0.04037716948202882,
+      "metric": "robust_content_error",
+      "positive_seed_count": 0,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 0.30249055918663775,
+      "hierarchical_ci_low": -0.35663159371492703,
+      "mean_difference": -0.03469994058229348,
+      "metric": "wer",
+      "positive_seed_count": 1,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 0.29032503802793724,
+      "hierarchical_ci_low": -0.325158640801076,
+      "mean_difference": -0.029669666291818924,
+      "metric": "cer",
+      "positive_seed_count": 1,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 0.0,
+      "hierarchical_ci_low": -2.0689584165154919e-07,
+      "mean_difference": -5.615643363365709e-08,
+      "metric": "clip_fraction",
+      "positive_seed_count": 0,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 0.002420091956856573,
+      "hierarchical_ci_low": -0.04611704744476107,
+      "mean_difference": -0.02064194551026603,
+      "metric": "silence_fraction",
+      "positive_seed_count": 1,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 1.153479151601052,
+      "hierarchical_ci_low": -0.9409309940486381,
+      "mean_difference": -0.10931914732190369,
+      "metric": "rms_dbfs",
+      "positive_seed_count": 1,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 0.6907472937876116,
+      "hierarchical_ci_low": -0.7462788875598452,
+      "mean_difference": 0.0800496681752542,
+      "metric": "peak_dbfs",
+      "positive_seed_count": 2,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 0.0,
+      "hierarchical_ci_low": 0.0,
+      "mean_difference": 0.0,
+      "metric": "duration_s",
+      "positive_seed_count": 0,
+      "seeds": 3,
+      "source_units": 60
+    },
+    {
+      "comparison": "content_only_minus_uniform",
+      "hierarchical_ci_high": 0.02220075711697566,
+      "hierarchical_ci_low": -0.06434959826934844,
+      "mean_difference": -0.012309443009169625,
+      "metric": "generation_seconds",
+      "positive_seed_count": 2,
+      "seeds": 3,
+      "source_units": 60
+    }
+  ],
+  "scope": "independent_four_speaker_cohort_three_seeds",
+  "status": "complete"
+}

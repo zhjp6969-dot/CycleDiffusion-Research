@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "kaggle_notebook": "https://www.kaggle.com/code/jinpeng12353/cyclediffusion-layer-4-controlled-ablation",
+    "saved_version": 1,
+    "archive_name": "layer4_component_ablation_outputs.tgz",
+    "archive_bytes": 5486720920
+  },
+  "date": "2026-09-16",
+  "evaluation_outputs": 1080,
+  "independent_source_clusters": 20,
+  "primary_result": {
+    "content_only_identity_gain_over_uniform": 0.033699,
+    "content_only_identity_gain_ci95": [0.021399, 0.046510],
+    "joint_identity_gain_over_uniform": 0.021369,
+    "joint_identity_gain_ci95": [0.009641, 0.033079],
+    "hard_gate_identity_gain_over_uniform": 0.019519,
+    "hard_gate_identity_gain_ci95": [0.007879, 0.031928],
+    "speaker_only_identity_gain_over_uniform": 0.003370,
+    "speaker_only_identity_gain_ci95": [-0.006748, 0.013051],
+    "robust_content_intervals_cross_zero_for_all_components": true
+  },
+  "scope": "four_speakers_12_directions_5_sources_3_references_six_variants",
+  "status": "complete",
+  "training": {
+    "new_full_epoch_variants": ["speaker_only_e51", "content_only_e51", "hard_gate_e51"],
+    "reused_variants": ["base_epoch50", "uniform_e51", "joint_e51"],
+    "steps_per_new_continuation": 461
+  }
+}

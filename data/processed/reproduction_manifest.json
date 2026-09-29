@@ -1,0 +1,23 @@
+{
+  "audit_date": "2026-09-14",
+  "archive_title": "CycleDiffusion.zip",
+  "archive_size_bytes": 3392600911,
+  "notebook": {
+    "path": "notebooks/CycleDiffusion_experiment_log.ipynb",
+    "sha256_sanitized_copy": "02b322292f4f8f836ff464005e3875345b663d960651dd3eefd303b1f86296f0",
+    "cells": 110,
+    "sanitization": "Removed Colab authorship tag and executionInfo.user metadata."
+  },
+  "archived_files": [
+    {"path": "scripts/reproduction/inference_ablation.py", "bytes": 8332, "sha256": "78ed8e125552a3fc073c283a7c9c475a1ef5c9db6ddd2866e4b06234288baa1a"},
+    {"path": "scripts/reproduction/make_clean_centroids.py", "bytes": 936, "sha256": "5e6bb44df86862db6dfcdc873ad34eb2ed7c2a889f6c03b44045ba8d942bee06"},
+    {"path": "scripts/reproduction/make_clean_blends.py", "bytes": 1150, "sha256": "05c45059c9d7ba8ee4f7303df36f0d210f2fa49fb654a9c5e663a6272a78a024"},
+    {"path": "scripts/reproduction/make_all_centroids.py", "bytes": 808, "sha256": "2bc91debe4b32de8082ed804389d059fe91eca6877e5fed91e993f44e59653fc"},
+    {"path": "scripts/reproduction/make_all_blend_embeddings.py", "bytes": 1068, "sha256": "5c86752cc064e6e000b8eadb9515f4b3444041c87191263014ffc967cdca6175"},
+    {"path": "scripts/reproduction/make_blend_embeddings.py", "bytes": 1042, "sha256": "2ec44668ebfeb28c5b5aa339c90399eea4fa06a375b36ea63b03a2e595a12a19"},
+    {"path": "scripts/reproduction/run_clean120.sh", "bytes": 1622, "sha256": "205e5e50dbfc7f14981f79b288b5afd0e02f154496dc4858affdae0e5c8f0291"},
+    {"path": "scripts/reproduction/run_all12.sh", "bytes": 1428, "sha256": "bcb9d89f82a490b73d96cab2c32a194902bdc756be9a99c50de686fccccbc50c"},
+    {"path": "scripts/reproduction/run_alpha_screen.sh", "bytes": 1046, "sha256": "df21eac1942909108e66ac959a01468f03cbccacaf3031d4d1991da0458f4084"},
+    {"path": "scripts/reproduction/run_alpha_all12_remaining.sh", "bytes": 1262, "sha256": "74fb288b05bf0d959815401b86fd25e1b0b3addacf5dc6cd8dec9ba19e45e16f"}
+  ]
+}

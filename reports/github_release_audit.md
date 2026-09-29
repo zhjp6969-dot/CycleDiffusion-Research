@@ -1,12 +1,13 @@
 # GitHub release audit
 
-Audit date: 2026-09-26
+Audit date: 2026-09-29
 
 ## Outcome
 
 The repository is technically consistent and the public/private evidence
-boundary is enforced. It is ready for a final human choice of license and
-repository destination; no remote push or public release has been performed.
+boundary is enforced. The English-only review version has been pushed to the
+private GitHub repository `zhjp6969-dot/CycleDiffusion-Audit`. No public release
+has been performed.
 
 ## Automated checks
 
@@ -52,7 +53,7 @@ license could be verified.
 ## Remaining owner decisions
 
 1. Choose and add a software/data license. No license was inferred automatically.
-2. Confirm the final GitHub repository name and visibility.
+2. Decide whether and when to change the private repository to public.
 3. Optionally add author metadata (`CITATION.cff`, ORCID, affiliation) after the
    preferred public identity is confirmed.
-4. Review the staged diff, then commit and push explicitly.
+4. Complete a final professor-facing review before changing visibility.

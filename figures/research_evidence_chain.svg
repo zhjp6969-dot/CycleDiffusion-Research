@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="915.84pt" height="278.064pt" viewBox="0 0 915.84 278.064" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 278.064
+L 915.84 278.064
+L 915.84 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.448 182.1432
+L 180.594 182.1432
+Q 186.174 182.1432 186.174 176.0712
+L 186.174 74.6688
+Q 186.174 68.5968 180.594 68.5968
+L 20.448 68.5968
+Q 14.868 68.5968 14.868 74.6688
+L 14.868 176.0712
+Q 14.868 182.1432 20.448 182.1432
+z
+" clip-path="url(#p9f15d8d434)" style="fill: #f7f8fa; stroke: #0f4d92; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 199.008 182.1432
+L 359.154 182.1432
+Q 364.734 182.1432 364.734 176.0712
+L 364.734 74.6688
+Q 364.734 68.5968 359.154 68.5968
+L 199.008 68.5968
+Q 193.428 68.5968 193.428 74.6688
+L 193.428 176.0712
+Q 193.428 182.1432 199.008 182.1432
+z
+" clip-path="url(#p9f15d8d434)" style="fill: #f7f8fa; stroke: #0f4d92; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 377.568 182.1432
+L 537.714 182.1432
+Q 543.294 182.1432 543.294 176.0712
+L 543.294 74.6688
+Q 543.294 68.5968 537.714 68.5968
+L 377.568 68.5968
+Q 371.988 68.5968 371.988 74.6688
+L 371.988 176.0712
+Q 371.988 182.1432 377.568 182.1432
+z
+" clip-path="url(#p9f15d8d434)" style="fill: #f7f8fa; stroke: #42949e; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 556.128 182.1432
+L 716.274 182.1432
+Q 721.854 182.1432 721.854 176.0712
+L 721.854 74.6688
+Q 721.854 68.5968 716.274 68.5968
+L 556.128 68.5968
+Q 550.548 68.5968 550.548 74.6688
+L 550.548 176.0712
+Q 550.548 182.1432 556.128 182.1432
+z
+" clip-path="url(#p9f15d8d434)" style="fill: #f7f8fa; stroke: #b64342; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 734.688 182.1432
+L 894.834 182.1432
+Q 900.414 182.1432 900.414 176.0712
+L 900.414 74.6688
+Q 900.414 68.5968 894.834 68.5968
+L 734.688 68.5968
+Q 729.108 68.5968 729.108 74.6688
+L 729.108 176.0712
+Q 729.108 182.1432 734.688 182.1432
+z
+" clip-path="url(#p9f15d8d434)" style="fill: #f7f8fa; stroke: #0f4d92; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'; text-anchor: middle; fill: #0f4d92" x="100.521" y="102.579847" transform="rotate(-0 100.521 102.579847)">1  Reproduction</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(47.473656 134.318229)">Reference sensitivity</text>
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(38.304203 152.125821)">Identity-content trade-off</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 188.730501 126.888
+Q 190.916037 126.888 191.089112 126.888
+" style="fill: none; stroke: #767676; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 185.089112 123.888
+L 191.089112 126.888
+L 185.089112 129.888
+" style="fill: none; stroke: #767676; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'; text-anchor: middle; fill: #0f4d92" x="279.081" y="102.579847" transform="rotate(-0 279.081 102.579847)">2  Gradient path</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(213.888578 134.315533)">Historical snapshot check</text>
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(215.90018 152.125821)">Differentiable second leg</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 367.290501 126.888
+Q 369.476037 126.888 369.649112 126.888
+" style="fill: none; stroke: #767676; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 363.649112 123.888
+L 369.649112 126.888
+L 363.649112 129.888
+" style="fill: none; stroke: #767676; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'; text-anchor: middle; fill: #42949e" x="457.641" y="102.579847" transform="rotate(-0 457.641 102.579847)">3  Controlled ablation</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(383.015883 134.318229)">Components + cycle strength</text>
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(380.40682 152.072814)">Freeze content-only, lambda 1</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 545.850501 126.888
+Q 548.036037 126.888 548.209112 126.888
+" style="fill: none; stroke: #767676; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 542.209112 123.888
+L 548.209112 126.888
+L 542.209112 129.888
+" style="fill: none; stroke: #767676; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'; text-anchor: middle; fill: #b64342" x="636.201" y="102.579847" transform="rotate(-0 636.201 102.579847)">4  Confirmation</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(573.881781 134.644361)">New cohort; three seeds</text>
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(573.243891 152.055743)">Mixed identity replication</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 724.410501 126.888
+Q 726.596037 126.888 726.769112 126.888
+" style="fill: none; stroke: #767676; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 720.769112 123.888
+L 726.769112 126.888
+L 720.769112 129.888
+" style="fill: none; stroke: #767676; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'; text-anchor: middle; fill: #0f4d92" x="814.761" y="102.57971" transform="rotate(-0 814.761 102.57971)">5  Path diagnosis</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(757.554789 134.315533)">Two-hop vs. three-hop</text>
+    <text style="font-size: 11.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'" transform="translate(748.936977 152.055743)">Discovery cohort revisited</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'; text-anchor: start" x="14.868" y="34.5936" transform="rotate(-0 14.868 34.5936)">CycleDiffusion: from reproduction to bounded research evidence</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'; text-anchor: start" x="14.868" y="219.1824" transform="rotate(-0 14.868 219.1824)">Research sequence; arrows do not denote a shared dataset or a single evolving model.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans'; text-anchor: start; fill: #4d4d4d" x="14.868" y="249.5424" transform="rotate(-0 14.868 249.5424)">Discovery: historical checkpoint exposure possible.  Confirmation: fixed evaluation IDs excluded from new base and continuation training.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9f15d8d434">
+   <rect x="11.52" y="11.52" width="892.8" height="255.024"/>
+  </clipPath>
+ </defs>
+</svg>

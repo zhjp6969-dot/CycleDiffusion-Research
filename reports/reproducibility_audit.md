@@ -4,8 +4,12 @@ Date: 2026-09-15; latest result update: 2026-09-26
 
 ## Audit outcome
 
-The repository can reproduce all reported statistics and figures from the
-sanitized score tables. A private, integrity-recorded Colab log and historical
+The repository reproduces the initial conditioning statistics and figures from
+sanitized row-level scores. Later experiments provide safe aggregate tables and
+analysis code, but full reanalysis requires excluded raw evaluator records.
+The headline verifier checks stored summaries and confirmation unit means;
+the overview figures are regenerated directly from the included summaries.
+A private, integrity-recorded Colab log and historical
 generation snapshot make the 900-output generation protocol auditable,
 including the alpha formula, file slices, checkpoint path, diffusion steps, and
 seeds. Full end-to-end audio reproduction is still not possible from this

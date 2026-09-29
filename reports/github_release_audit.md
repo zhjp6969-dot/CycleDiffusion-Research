@@ -1,6 +1,6 @@
 # GitHub release audit
 
-Audit date: 2026-09-29
+Audit date: 2026-09-30
 
 ## Outcome
 
@@ -9,7 +9,19 @@ boundary is enforced. The English-only review version has been pushed to the
 private GitHub repository `zhjp6969-dot/CycleDiffusion-Audit`. No public release
 has been performed.
 
-## Automated checks
+## Professor-facing revision
+
+- Reframed the landing page around reproduction and research discussion.
+- Made the joint-to-content-only selection and lambda-1 freeze explicit.
+- Added verified author name and GitHub profile; affiliation and personal email
+  are not inferred.
+- Condensed the research brief; preserved the complete English research history.
+- Added three source-driven figures with PNG/PDF/SVG exports and figures4papers
+  design attribution.
+- Added a standard-library headline verifier; distinguished summary validation
+  from full raw-record reanalysis.
+
+## Earlier full-release automated checks
 
 - parsed 62 Python files with the Python AST;
 - parsed 37 public JSON files;

@@ -1,5 +1,9 @@
 # Completed controlled experiment
 
+This page records the initial discovery experiment. The later independent
+confirmation did not meet the identity criterion; see the
+[current research brief](../reports/contact_summary_en.md) for the final outcome.
+
 **Status: complete (2026-09-15).** Both training runs, the 540-output generation
 and evaluation grid, paired analysis, and repository reporting have finished.
 

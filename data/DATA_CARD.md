@@ -50,11 +50,12 @@ same 20 source-speaker/source-sentence clusters before calculating uncertainty.
 Raw paths, transcripts, hypotheses, generated audio, and checkpoints remain
 private and are not copied into this directory.
 
-`processed/layer9_interaction/` contains the completed 2 x 2
+`processed/layer9_interaction/` retains safe summaries of the completed 2 x 2
 `uniform/content_only x lambda=1/0.25` interaction record. It includes 720
-evaluation rows (180 per cell), paired source-cluster effects, four-cell means,
-three new 461-step training histories, generation/evaluation journals, and the
-Kaggle completion log. The 594 KiB evidence archive intentionally excludes
+evaluation rows (180 per cell) in the local evidence bundle; the Git-tracked
+subset contains paired source-cluster effects, four-cell means, and three new
+461-step training histories. Generation/evaluation journals and the completion
+log remain local. The 594 KiB local evidence archive intentionally excludes
 checkpoints and generated audio; its SHA-256 is recorded alongside it. The raw
 evaluation CSV retains transcript-level evaluator fields and should not be
 republished without checking the applicable dataset and transcript terms.

@@ -7,6 +7,12 @@
 An independent research note shared for discussion of cycle supervision,
 implementation details, and future voice-conversion research.
 
+![Research overview: reliability-weighted cycle training, independent confirmation, and evaluation-only path-length diagnostics](figures/research_overview.png)
+
+*Conceptual overview of the implemented cycle branch and study design, not the
+full model architecture. Independent confirmation yielded mixed results;
+path-length analysis is evaluation only. [View full-size figure](figures/research_overview.png).*
+
 This repository documents a reproducibility audit and a sequence of controlled
 extensions to CycleDiffusion voice conversion. The project began by reproducing
 the authors' previously public implementation, then moved from implementation

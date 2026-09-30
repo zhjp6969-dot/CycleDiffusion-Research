@@ -6,7 +6,7 @@ Audit date: 2026-09-30
 
 The repository is technically consistent and the public/private evidence
 boundary is enforced. With the owner's authorization, the English-only repository
-`zhjp6969-dot/CycleDiffusion-Audit` was made public on 2026-09-30. Unauthenticated
+`zhjp6969-dot/CycleDiffusion-Research` was made public on 2026-09-30. Unauthenticated
 GitHub API access confirmed `private: false` and `visibility: public`.
 Excluded local research assets remain outside the repository.
 
